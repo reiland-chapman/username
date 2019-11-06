@@ -1,5 +1,5 @@
 #! /bin/bash
-# zip.sh
+# username.sh
 # Mark Reiland
 echo "Enter a username: "
 read username
