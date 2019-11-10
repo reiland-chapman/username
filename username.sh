@@ -4,7 +4,7 @@
 echo "Enter a username: "
 read username
 
-while echo "$username" | egrep -v "^[a-z][0-9a-z_]{2,10}$" > /dev/null 2>&1
+while echo "$username" | egrep -v "^[a-z][0-9a-z_]{2,11}$" > /dev/null 2>&1
 do
 	echo "Can only have lower case letters, digits, or underscores"
 	echo "Must start with a lower case letter"
